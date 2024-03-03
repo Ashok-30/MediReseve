@@ -1,0 +1,30 @@
+<!-- header_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/background">
+
+
+    <ImageButton
+        android:id="@+id/hamburgerButton"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Navigation Drawer"
+        android:src="@drawable/hamburger" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="MediReserve"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:gravity="start|center_vertical"
+    android:paddingStart="110dp"/>
+
+</LinearLayout>

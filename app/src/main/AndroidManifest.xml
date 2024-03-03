@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.any" android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+
+        </activity>
+        <activity
+            android:name=".GetStarted"
+            android:exported="false">
+
+
+        </activity>
+        <activity android:name=".NavigationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".patient.PatientLoginActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".patient.PatientRegisterActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientOtpActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientHomeScreen"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientHomePageActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientAppointment"
+            android:exported="true"/>
+        <activity android:name=".patient.TimeSlotActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.BookingActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientBookingActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientRatingActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientVIPActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientPaymentActivity"
+            android:exported="true"/>
+
+        <activity android:name=".patient.CardOtpActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.MedicineActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientPrescriptionActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientProfileActivity"
+            android:exported="true"/>
+        <activity android:name=".patient.PatientBMIActivity"
+            android:exported="true"/>
+
+
+        <activity
+            android:name=".doctor.DoctorLoginActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".doctor.DoctorRegisterActivity"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorOtpActivity"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorHomeScreenActivity"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorHomePageActivity"
+
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorViewAppointment"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorRescheduleActivity"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorViewPrescription"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorPrescription"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorViewRating"
+            android:exported="true"/>
+        <activity android:name=".doctor.DoctorProfileActivity"
+            android:exported="true"/>
+
+
+    </application>
+
+</manifest>

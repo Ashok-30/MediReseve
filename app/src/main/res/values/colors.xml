@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button">#fc6471</color>
+    <color name="reschedule">#ff0a54</color>
+    <color name="rate">#126b7d</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="text">#070707</color>
+    <color name="background">#48cae4</color>
+    <color name="timeslot">#5e60ce</color>
+    <color name="lavender">#8692f7</color>
+
+        <color name="colorPrimary">#ff393a</color>
+        <color name="colorPrimaryDark">#c45248</color>
+        <color name="colorAccent">#ff393a</color>
+
+
+    <color name="uw">#FFFF99</color>
+    <color name="nor">#00FF00</color>
+    <color name="over">#ff9500</color>
+    <color name="oves">#FF0000</color>
+
+
+</resources>

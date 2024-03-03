@@ -1,0 +1,179 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="5dp"
+        tools:context=".patient.PatientAppointment">
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border_background"
+        android:color="@color/button"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- Age TextView -->
+
+    <TextView
+        android:id="@+id/patientFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorName"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border_background"
+        android:color="@color/button"
+        android:padding="10dp"
+        android:text="Patient Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patientFirstName"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border_background"
+        android:padding="10dp"
+        android:inputType="number"
+        android:hint="Enter Age"
+        android:color="@color/button"
+        android:textColorHint="@color/text"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/pDescription"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/pAge"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border_background"
+        android:ems="10"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="Enter your note."
+        android:textColorHint="@color/text"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:minLines="2"
+        android:singleLine="false"
+        android:color="@color/button"
+        android:textColor="#000000" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/endDate"
+            android:layout_marginStart="32dp"
+
+
+            android:layout_marginTop="95dp"
+            android:color="@color/button"
+            android:padding="10dp"
+            android:text=" Select Date"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/selectSlot"
+            android:layout_width="80dp"
+            android:layout_height="104dp"
+            android:layout_below="@+id/doctorName"
+
+            android:layout_marginStart="241dp"
+            android:layout_marginTop="499dp"
+            android:layout_marginBottom="211dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/ic_appointment_date" />
+
+        <TextView
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pDescription"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+
+        android:color="@color/button"
+
+        android:text="AvailableFrom:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/startDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/startDate"
+        android:layout_marginStart="32dp"
+        android:layout_below="@+id/pDescription"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+
+        android:color="@color/button"
+
+        android:text="From"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/endDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startDate"
+        android:layout_marginStart="32dp"
+
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+
+        android:color="@color/button"
+
+        android:text="Available Till:"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/endDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/startDate"
+        android:layout_marginStart="32dp"
+        android:layout_below="@+id/startDate1"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+
+        android:color="@color/button"
+
+        android:text="To"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    </RelativeLayout>
+
+</ScrollView>
+
+

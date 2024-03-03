@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MediReserve</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="header">MediReserve</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <string name="welcome_message">Welcome, %1$s</string>
+    <string name="select_time_slot">%s %s</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="undo_button_text">Undo Selection</string>
+    <string name="VIP">VIP Patient</string>
+    <string name="normal">Normal Patient</string>
+
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="doctor">Login as Doctor</string>
+    <string name="patient">Login as Patient</string>
+    <string name="splash">MediReserve</string>
+
+
+    <string name="screen1">As a Doctor</string>
+    <string name="screen2">As a Patient</string>
+    <string name="screen3">Subscribe</string>
+    <string name="screen1desc">Empower your practice with seamless appointment management, effortless rescheduling,
+        and efficient prescription sharing – Elevate the way you care for your patients with
+        MediReserve.</string>
+    <string name="screen2desc">Explore, book, rate, and receive personalized care – Your health journey simplified with
+        MediReserve, connecting you to top-notch doctors effortlessly.</string>
+    <string name="screen3desc">Unlock exclusive perks and premium healthcare services as a VIP patient –
+        Elevate your health experience with tailored benefits within MediReserve.</string>
+    <string name="startDesc">Embark on a seamless healthcare journey with our MediReserve app –
+        where appointments, prescriptions, and personalized care converge effortlessly.</string>
+
+</resources>

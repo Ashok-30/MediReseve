@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:textSize="40sp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_availability"
+            android:icon="@drawable/nav_booking"
+            android:textSize="40sp"
+            android:title="Select Availability" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:textSize="32sp"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/nav_appointments"
+            android:textSize="40sp"
+            android:title="Appointments" />
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/nav_prescription"
+            android:textSize="40sp"
+            android:title="Prescriptions" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_star_empty"
+            android:textSize="40sp"
+            android:title="Ratings" />
+
+
+    </group>
+
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:textSize="40sp"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

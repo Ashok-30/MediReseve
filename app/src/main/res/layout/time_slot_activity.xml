@@ -1,0 +1,345 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/timeslot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:text="Select Time Slots"
+        android:textColor="@color/text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:padding="8dp"
+        android:layout_below="@id/timeslot"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:padding="16dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="true"
+        android:layout_below="@id/date">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <Button
+                android:id="@+id/slot1"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="9AM-9:30AM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="9:30AM-10AM"
+                android:textSize="16sp"
+                android:backgroundTint="@color/rate"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="100AM-10:30AM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="10:30AM-11AM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="11:AM-11:30AM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="12PM-12:30PM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="12:30PM-1PM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="2PM-2:30PM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:backgroundTint="@color/rate"
+                android:text="2:30PM-3PM"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="3PM-3:30PM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="3:30PM-4PM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_slot12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+
+            <Button
+                android:id="@+id/slot12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="4PM-4:30PM"
+                android:backgroundTint="@color/rate"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/daySubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/button"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/unSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/button"
+        android:text="Undo Selection" />
+
+</RelativeLayout>
